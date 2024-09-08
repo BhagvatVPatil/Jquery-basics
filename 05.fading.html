@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fading</title>
+    <script src="JQUERY.js"></script>
+</head>
+<style>
+    #para{
+        display: none;
+    }
+</style>
+<body>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button>Fading content</button>
+    <script>
+        $('button').click(function(){
+            $('p').fadeIn();
+        });
+    </script>
+</body>
+</html>

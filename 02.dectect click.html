@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Event</title>
+    <script src="JQUERY.js"></script>
+</head>
+<style>
+    body{
+        /* flex-wrap: wrap; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 25vh;
+    }
+    #circle{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color:aqua;
+    }
+    #squre{
+        height:200px;
+        width: 200px;
+        background-color:blueviolet;
+        margin: 10px;
+    }
+</style>
+<body>
+   <div id="circle"></div> 
+   <div id="squre"></div>
+   <div id="squre"></div>
+   <script>
+    // $("#circle").hover(function(){
+    //     alert("Circle is hovered.");
+    // })
+    // $("#squre").click(function(){
+    //     alert("squre is clicked.");
+    // })
+
+    // OR
+
+    $("div").click( function(){
+        alert('Div is clicked.');
+    });
+   </script>
+</body>
+</html>
